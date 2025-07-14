@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "6562b659c15350d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "7dfa36d11cb3e0b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de1850503de4fe60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Spectral Graph Theory/Rayleigh Quotient.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rayleigh Quotient"
+            }
+          },
+          {
+            "id": "82861712b3c3f0aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Spectral Graph Theory/Rayleigh Quotient.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rayleigh Quotient"
+            }
+          },
+          {
+            "id": "3fdcfea48fe65a3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Spectral Graph Theory/Rayleigh Quotient.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rayleigh Quotient"
+            }
+          },
+          {
+            "id": "3ddf685072ec47c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Reinforcement Learning/Agent Architectures.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agent Architectures"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1f47e77617d04a6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc0696ac6910fd19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b9e37b003e980d0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a8034238f22d9019",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e80678f2cc1ac952",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c3835db2f78abcb5",
+    "type": "split",
+    "children": [
+      {
+        "id": "7dc513e062fd0620",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dc2ac7576247b35",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1. Spectral Graph Theory/Laplacian Matrices.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Laplacian Matrices"
+            }
+          },
+          {
+            "id": "afca6d2ec22b5829",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1. Spectral Graph Theory/Laplacian Matrices.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Laplacian Matrices"
+            }
+          },
+          {
+            "id": "6aa6c8fb39a1fcfa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6cbc24cb146a23dd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1. Spectral Graph Theory/Laplacian Matrices.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Laplacian Matrices"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3ddf685072ec47c7",
+  "lastOpenFiles": [
+    "3. Reinforcement Learning/1.RL.md",
+    "Misc/Homomorphism in graphs.md",
+    "Diagonalization.md",
+    "1. Spectral Graph Theory/Spectral Gap and Mixing.md",
+    "1. Spectral Graph Theory/Signal Decomposition on Graphs via Incidence Matrices.md",
+    "1. Spectral Graph Theory/Rayleigh Quotient.md",
+    "1. Spectral Graph Theory/Quadratic Form.md",
+    "1. Spectral Graph Theory/Laplacian Matrices.md",
+    "1. Spectral Graph Theory/Eigenvalues and Connectivity.md",
+    "Spectral Graph Theory by Fang Chung notes.md",
+    "Incidence vs Adjacency.md",
+    "Heat Equation.md",
+    "Images/Screenshot 2025-06-21 at 1.40.00 AM.png",
+    "Images/Screenshot 2025-06-21 at 1.20.44 AM.png",
+    "Images/Screenshot 2025-06-21 at 1.20.39 AM.png",
+    "Images/Screenshot 2025-06-21 at 1.20.19 AM.png",
+    "Images/Screenshot 2025-06-21 at 1.06.31 AM.png",
+    "Images/Screenshot 2025-06-08 at 10.36.40 PM.png",
+    "Misc/SSH.md",
+    "0. Pre-requisites/Graph Theory/Foundations.md",
+    "Images/Screenshot 2025-06-08 at 2.59.53 PM.png",
+    "Images/Screenshot 2025-06-08 at 2.59.14 PM.png",
+    "Images/diagonalization.png",
+    "Images/Screenshot 2025-06-05 at 6.30.44 PM.png",
+    "Images",
+    "Misc/Common data pipeline designs.md",
+    "Misc",
+    "4. Integration/Evolving Structure Optimization(ESP).md",
+    "0. Pre-requisites/Graph Theory/Graph Theory.md",
+    "0. Pre-requisites/Graph Theory/Structural Analysis.md",
+    "BFS.md",
+    "0. Pre-requisites/Graph Theory/PathFinding.md",
+    "0. Pre-requisites/Graph Theory/Flow and Bottlenecks.md",
+    "Graph_Representation.md",
+    "1. Spectral Graph Theory/1.Spectral Graph Theory.md",
+    "3. Reinforcement Learning/Reward Shaping with Laplacian.md",
+    "3. Reinforcement Learning/Agent Architectures.md",
+    "3. Reinforcement Learning/Exploration-Exploitation.md",
+    "0. Pre-requisites",
+    "0. Pre-requisites/Stochastic Processes",
+    "0. Pre-requisites/Graph Theory",
+    "4. Integration",
+    "3. Reinforcement Learning",
+    "2. Optimization Techniques",
+    "2. Random Walks",
+    "1. Spectral Graph Theory"
+  ]
+}

@@ -1,0 +1,62 @@
+from collections import deque
+
+# Define node types and what they produce/consume
+NODE_TYPES = {
+    'C': {'produces': {'copper'}, 'consumes': set()},
+    'S': {'produces': {'metaglass'}, 'consumes': {'copper'}},
+    'T': {'produces': set(), 'consumes': {'metaglass'}},
+    '.': {'produces': set(), 'consumes': set()}  # Empty tile
+}
+
+# Define a 5x5 grid with some example nodes
+grid = [
+    ['.', '.', '.', '.', '.'],
+    ['.', 'C', '.', 'S', '.'],
+    ['.', '.', '.', '.', '.'],
+    ['.', '.', 'T', '.', '.'],
+    ['.', '.', '.', '.', '.'],
+]
+
+# Helper to find node positions
+def find_nodes(grid):
+    nodes = []
+    for y in range(len(grid)):
+        for x in range(len(grid[0])):
+            cell = grid[y][x]
+            if cell in NODE_TYPES and cell != '.':
+                nodes.append({'type': cell, 'pos': (x, y)})
+    return nodes
+
+# Simple BFS to find shortest path on empty tiles
+def bfs(start, end):
+    queue = deque([(start, [start])])
+    visited = set()
+    while queue:
+        (x, y), path = queue.popleft()
+        if (x, y) == end:
+            return path
+        for dx, dy in [(-1,0), (1,0), (0,-1), (0,1)]:
+            nx, ny = x + dx, y + dy
+            if 0 <= nx < 5 and 0 <= ny < 5:
+                if (nx, ny) not in visited and grid[ny][nx] == '.':
+                    visited.add((nx, ny))
+                    queue.append(((nx, ny), path + [(nx, ny)]))
+    return None
+
+# Find valid producer → consumer connections
+def find_valid_routes(nodes):
+    for source in nodes:
+        for target in nodes:
+            if source == target:
+                continue
+            s_type, s_pos = source['type'], source['pos']
+            t_type, t_pos = target['type'], target['pos']
+            if NODE_TYPES[s_type]['produces'] & NODE_TYPES[t_type]['consumes']:
+                path = bfs(s_pos, t_pos)
+                if path:
+                    print(f"Valid route: {s_type}@{s_pos} ➝ {t_type}@{t_pos}")
+                    print(f"  Path: {path}\n")
+
+# Run the routing system
+nodes = find_nodes(grid)
+find_valid_routes(nodes)
