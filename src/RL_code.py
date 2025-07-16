@@ -168,7 +168,7 @@ def run_experiment(k, num_steps, num_runs, policy_func, policy_param, alpha=0.1,
     if sample_average:
         
     
-    return avg_rewards, optimal_action_percentages
+        return avg_rewards, optimal_action_percentages
 
 if __name__ == '__main__':
     # --- Experiment Parameters ---
