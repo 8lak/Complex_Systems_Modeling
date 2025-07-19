@@ -47,8 +47,8 @@ Sobolev Inequalities (Measuring Convergence): For a deeper analysis of dynamics,
 3. Application to a Behavioral Model
 The principles of spectral graph theory provide a powerful framework for mapping the hidden structure within a time-series of human behavior. The core innovation is to construct a "daily state graph" where the spectral properties of its Laplacian reveal a map of an individual's life structure.
 Model Construction:
-Nodes: Each node vt in the graph represents the complete state vector x(t) for a single day t.This vector can be decomposed: x(t)=xh+xp(t)x(t)=xh+xp(t), where xh is the stable, long-term average behavior (the homogeneous component) and 
-xp(t) is the daily deviation from that average (the particular component).
+Nodes: Each node $vt$ in the graph represents the complete state vector $x(t)$ for a single day $t$.This vector can be decomposed: $x(t)=xh+xp(t)x(t)=xh+xp(t)$, where xh is the stable, long-term average behavior (the homogeneous component) and 
+$xp(t)$ is the daily deviation from that average (the particular component).
 
 Advanced Connectivity Concepts:
 Cheeger's Inequality (Measuring Bottlenecks): The Fiedler value is powerfully linked to the graph's "isoperimetric constant" or Cheeger constant via Cheeger's inequality. The Cheeger constant provides a precise measure of the "worst bottleneck" in the graph—the sparsest cut that can be made to partition the graph. A high Cheeger constant implies the graph is well-mixed and robustly connected, while a low constant proves the existence of a significant structural barrier.
