@@ -8,77 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "de1850503de4fe60",
+            "id": "762a5d7b292478a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Spectral Graph Theory/Rayleigh Quotient.md",
+                "file": "Misc/Neural Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rayleigh Quotient"
+              "title": "Neural Networks"
             }
           },
           {
-            "id": "82861712b3c3f0aa",
+            "id": "5e05749b4722a51f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Spectral Graph Theory/Rayleigh Quotient.md",
+                "file": "OOP (object oriented programming).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rayleigh Quotient"
-            }
-          },
-          {
-            "id": "3fdcfea48fe65a3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Spectral Graph Theory/Rayleigh Quotient.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Rayleigh Quotient"
-            }
-          },
-          {
-            "id": "3ddf685072ec47c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc/SSH.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SSH"
-            }
-          },
-          {
-            "id": "98a1152c5206b282",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Three pass system.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Three pass system"
+              "title": "OOP (object oriented programming)"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,24 +183,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98a1152c5206b282",
+  "active": "5e05749b4722a51f",
   "lastOpenFiles": [
-    "Misc/SSH.md",
-    "Three pass system.md",
+    "Misc/Neural Networks.md",
+    "OOP (object oriented programming).md",
+    "Images/Screenshot 2025-07-18 at 10.52.28 PM.png",
+    "Misc/Differentiation in Autograd.md",
+    "3. Reinforcement Learning/Action Values.md",
     "3. Reinforcement Learning/Agent Architectures.md",
+    "Misc/SSH.md",
+    "1. Spectral Graph Theory/Rayleigh Quotient.md",
+    "Images/Screenshot 2025-07-18 at 10.45.39 PM.png",
+    "3. Reinforcement Learning/1.RL.md",
+    "3. Reinforcement Learning/Exploration-Exploitation.md",
+    "1. Spectral Graph Theory/Signal Decomposition on Graphs via Incidence Matrices.md",
+    "1. Spectral Graph Theory/1.Spectral Graph Theory.md",
+    "1. Spectral Graph Theory/Eigenvalues and Connectivity.md",
+    "1. Spectral Graph Theory/Laplacian Matrices.md",
+    "1. Spectral Graph Theory/Quadratic Form.md",
+    "1. Spectral Graph Theory/Spectral Gap and Mixing.md",
+    "Three pass system.md",
     "Misc/Spectral Graph Theory by Fang Chung notes.md",
     "Misc/Incidence vs Adjacency.md",
     "Misc/Heat Equation.md",
     "Misc/Diagonalization.md",
-    "3. Reinforcement Learning/1.RL.md",
     "Misc/Homomorphism in graphs.md",
     "Diagonalization.md",
-    "1. Spectral Graph Theory/Spectral Gap and Mixing.md",
-    "1. Spectral Graph Theory/Signal Decomposition on Graphs via Incidence Matrices.md",
-    "1. Spectral Graph Theory/Rayleigh Quotient.md",
-    "1. Spectral Graph Theory/Quadratic Form.md",
-    "1. Spectral Graph Theory/Laplacian Matrices.md",
-    "1. Spectral Graph Theory/Eigenvalues and Connectivity.md",
     "Spectral Graph Theory by Fang Chung notes.md",
     "Incidence vs Adjacency.md",
     "Heat Equation.md",
@@ -255,16 +221,8 @@
     "0. Pre-requisites/Graph Theory/Foundations.md",
     "Images/Screenshot 2025-06-08 at 2.59.53 PM.png",
     "Images/Screenshot 2025-06-08 at 2.59.14 PM.png",
-    "Images/diagonalization.png",
-    "Images/Screenshot 2025-06-05 at 6.30.44 PM.png",
     "Images",
-    "Misc/Common data pipeline designs.md",
     "Misc",
-    "4. Integration/Evolving Structure Optimization(ESP).md",
-    "0. Pre-requisites/Graph Theory/Graph Theory.md",
-    "0. Pre-requisites/Graph Theory/Structural Analysis.md",
-    "BFS.md",
-    "0. Pre-requisites/Graph Theory/PathFinding.md",
     "0. Pre-requisites",
     "0. Pre-requisites/Stochastic Processes",
     "0. Pre-requisites/Graph Theory",
