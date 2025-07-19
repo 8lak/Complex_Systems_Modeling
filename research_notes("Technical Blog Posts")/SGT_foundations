@@ -1,8 +1,8 @@
-Go through your full SGT notes (1.Spectral Graph Theory.md, Eigenvalues and Connectivity.md, Laplacian Matrices.md, etc.).
+"Go through your full SGT notes (1.Spectral Graph Theory.md, Eigenvalues and Connectivity.md, Laplacian Matrices.md, etc.).
 Your task is to write a new, single document that summarizes the key concepts for a technical audience. Explain, in your own words, what the graph Laplacian is, why its eigenvalues are so important for understanding graph connectivity, and—most importantly—how you plan to apply these concepts to your behavioral model.
-This single document is infinitely more impressive than 10 separate, raw note files. It proves you don't just take notes; you understand and synthesize.
+This single document is infinitely more impressive than 10 separate, raw note files. It proves you don't just take notes; you understand and synthesize."
 
-Harnessing the Graph Laplacian to Model Behavioral Dynamics: A Synthesis
+1. Harnessing the Graph Laplacian to Model Behavioral Dynamics: A Synthesis
 This document synthesizes key concepts from spectral graph theory to build a coherent mathematical framework for analyzing and predicting complex human behavior. It explains what the graph Laplacian is, why its spectral properties are critical for understanding connectivity, and outlines a concrete plan to apply these ideas to a novel behavioral model.
 1. The Graph Laplacian: A "Difference" Operator for Graphs
 At its core, the Graph Laplacian is a matrix that encodes the fundamental structure of a network. It serves as a mathematical operator that reveals how values placed on the nodes of a graph differ across their connections.
@@ -19,7 +19,7 @@ $$(Lf)(i) = \sum_{j \sim i} \left( \mathbf{f}(i) - \mathbf{f}(j) \right)$$
 
 This formula shows that the Laplacian is fundamentally a measure of local smoothness or variance across the graph.
 
-Essential Variants of the Laplacian:
+2. Essential Variants of the Laplacian:
 
 Unnormalized Laplacian ($L = D - A$): The fundamental form, best suited for regular graphs where degree differences are not a concern.
 Symmetric Normalized Laplacian ($\mathcal{L} = I - D^{-1/2}AD^{-1/2}$): The workhorse for real-world applications. This form normalizes for node degrees, preventing high-degree "hubs" from dominating the analysis and ensuring its spectral properties are well-behaved, which is crucial for irregular graphs.
@@ -61,7 +61,9 @@ Model Construction:
 1. Nodes: Each node $vt$ in the graph represents the complete state vector 
 $x(t)$ for a single day $t$. This vector can be decomposed: $x(t) = xh+xp(t)$, where 
 $xh$ is the stable, long-term average behavior (the homogeneous component) and $xp(t)$ is the daily deviation from that average (the particular component).
-Edges: An edge weight $w_{ij}$ between two days, $vi$ and $vj$, is defined by the similarity of their variability vectors. A high weight signifies that the patterns of deviation from the norm were similar. This can be calculated using a Gaussian similarity kernel:
+
+"review"
+2. Edges: An edge weight $w_{ij}$ between two days, $vi$ and $vj$, is defined by the similarity of their variability vectors. A high weight signifies that the patterns of deviation from the norm were similar. This can be calculated using a Gaussian similarity kernel:
 $w_{ij} = \exp\left( -\frac{\|\mathbf{x}_p(i) - \mathbf{x}_p(j)\|^2}{2\sigma^2} \right)$
 
 Integrating with Machine Learning:
