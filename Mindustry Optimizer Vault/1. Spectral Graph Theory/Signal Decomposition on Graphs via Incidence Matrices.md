@@ -1,3 +1,4 @@
+[[1.Spectral Graph Theory]]
 The Laplacian is factorized into an Incidence matrix and its transpose. Where its $n \times m$ and n represents nodes and m represents the directed edges. Specifically we can write $L=SS^T$
 
 

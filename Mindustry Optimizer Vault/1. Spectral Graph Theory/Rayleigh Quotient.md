@@ -3,6 +3,7 @@
 The Rayleigh Quotient uses the quadratic form of the Laplacian to assign a single score to a signal, representing its smoothness or frequency. See [[Signal Decomposition on Graphs via Incidence Matrices]] for the underlying mechanics of the Laplacian and the usage of divergence and gradient to find variance. 
 
 
+$R(f)=\frac{f^T L f}{f^T f}=\frac{\sum_{(u,v)\in E}(f(u)-f(v))^2}{\sum_{v\in V}f(v)^2}$
 
 - **Vector Notation:** All forms of the Rayleigh Quotient are ratios of inner products. The **inner product**, $\langle f, g \rangle = \sum_x f(x)\,g(x)$, is the formal tool for converting vector relationships (like alignment and length) into scalars.
 
