@@ -2,8 +2,11 @@
 Your task is to write a new, single document that summarizes the key concepts for a technical audience. Explain, in your own words, what the graph Laplacian is, why its eigenvalues are so important for understanding graph connectivity, and—most importantly—how you plan to apply these concepts to your behavioral model.
 This single document is infinitely more impressive than 10 separate, raw note files. It proves you don't just take notes; you understand and synthesize."
 
-1. Harnessing the Graph Laplacian to Model Behavioral Dynamics: A Synthesis
-This document synthesizes key concepts from spectral graph theory to build a coherent mathematical framework for analyzing and predicting complex human behavior. It explains what the graph Laplacian is, why its spectral properties are critical for understanding connectivity, and outlines a concrete plan to apply these ideas to a novel behavioral model.
+Harnessing the Graph Laplacian to Model Behavioral Dynamics: A Synthesis
+
+Abstract
+This paper outlines a computational framework for modeling human behavioral dynamics using principles from spectral graph theory. We propose the construction of a "daily state graph" where nodes represent daily psychometric states and edge weights are determined by the similarity of their deviation from a long-term average. By analyzing the spectral properties of the graph's Laplacian—specifically its Fiedler value and Cheeger constant—we can identify structural features like behavioral "ruts" (bottlenecks) and measure systemic resilience. This structural analysis then serves as a foundational environment for higher-level AI models, including a Recurrent Neural Network for temporal prediction and a Reinforcement Learning agent for optimal policy discovery.
+
 1. The Graph Laplacian: A "Difference" Operator for Graphs
 At its core, the Graph Laplacian is a matrix that encodes the fundamental structure of a network. It serves as a mathematical operator that reveals how values placed on the nodes of a graph differ across their connections.
 Formal Definition: The most common form of the Laplacian is defined as:
