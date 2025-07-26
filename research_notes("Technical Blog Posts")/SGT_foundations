@@ -1,7 +1,3 @@
-"Go through your full SGT notes (1.Spectral Graph Theory.md, Eigenvalues and Connectivity.md, Laplacian Matrices.md, etc.).
-Your task is to write a new, single document that summarizes the key concepts for a technical audience. Explain, in your own words, what the graph Laplacian is, why its eigenvalues are so important for understanding graph connectivity, and—most importantly—how you plan to apply these concepts to your behavioral model.
-This single document is infinitely more impressive than 10 separate, raw note files. It proves you don't just take notes; you understand and synthesize."
-
 Harnessing the Graph Laplacian to Model Behavioral Dynamics: A Synthesis
 
 Abstract
