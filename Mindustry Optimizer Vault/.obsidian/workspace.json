@@ -41,16 +41,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pandas cookbook.md",
+                "file": "3. Reinforcement Learning/Action Values.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pandas cookbook"
+              "title": "Action Values"
+            }
+          },
+          {
+            "id": "e5d42aa1b2f0970e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misc/Creating venv python, mac.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Creating venv python, mac"
+            }
+          },
+          {
+            "id": "1314249b7b941bc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misc/Cross Entropy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cross Entropy"
+            }
+          },
+          {
+            "id": "24e9d4c2624c7280",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misc/Unsupervised or self-supervised representation learning that seeks to model the data manifold for a given class, allowing for both analysis of its core components and synthesis of novel instances.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unsupervised or self-supervised representation learning that seeks to model the data manifold for a given class, allowing for both analysis of its core components and synthesis of novel instances"
+            }
+          },
+          {
+            "id": "1d5d3057bc7451f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misc/Neural Networks in pytorch.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Neural Networks in pytorch"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -197,10 +253,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8027522fbc2fae7",
+  "active": "1d5d3057bc7451f7",
   "lastOpenFiles": [
+    "RNN vs Transformers intuition.md",
+    "Misc/Unsupervised or self-supervised representation learning that seeks to model the data manifold for a given class, allowing for both analysis of its core components and synthesis of novel instances.md",
+    "Misc/Cross Entropy.md",
+    "Misc/Neural Networks in pytorch.md",
+    "Misc/Creating venv python, mac.md",
+    "3. Reinforcement Learning/Action Values.md",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/urllib3/util/__pycache__/wait.cpython-311.pyc",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/urllib3/util/__pycache__/util.cpython-311.pyc",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/urllib3/util/__pycache__/url.cpython-311.pyc",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/urllib3/util/__pycache__/timeout.cpython-311.pyc",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/urllib3/util/__pycache__/ssltransport.cpython-311.pyc",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/urllib3/util/__pycache__/ssl_match_hostname.cpython-311.pyc",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/urllib3/util/__pycache__/ssl_.cpython-311.pyc",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/urllib3/util/__pycache__/retry.cpython-311.pyc",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/urllib3/util/__pycache__/response.cpython-311.pyc",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/urllib3/util/__pycache__/request.cpython-311.pyc",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/torchgen/packaged/autograd/README.md",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/sympy/plotting/tests/test_region_xor.png",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/sympy/plotting/tests/test_region_or.png",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/sympy/plotting/tests/test_region_not.png",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/sympy/plotting/tests/test_region_and.png",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/numpy/random/LICENSE.md",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/huggingface_hub/templates/modelcard_template.md",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/huggingface_hub/templates/datasetcard_template.md",
+    "Say-it-kinder/venv/lib/python3.11/site-packages/idna-3.10.dist-info/LICENSE.md",
+    "3. Reinforcement Learning/Agent Architectures.md",
+    "3. Reinforcement Learning/1.RL.md",
+    "3. Reinforcement Learning/Reward Shaping with Laplacian.md",
+    "3. Reinforcement Learning/MDPs and Policies.md",
+    "3. Reinforcement Learning/Exploration-Exploitation.md",
+    "Misc/Pandas cookbook.md",
     "1. Spectral Graph Theory/Rayleigh Quotient.md",
-    "Pandas cookbook.md",
     "1. Spectral Graph Theory/Eigenvalues and Connectivity.md",
     "1. Spectral Graph Theory/Spectral Gap and Mixing.md",
     "1. Spectral Graph Theory/Signal Decomposition on Graphs via Incidence Matrices.md",
@@ -208,42 +294,12 @@
     "1. Spectral Graph Theory/Laplacian Matrices.md",
     "1. Spectral Graph Theory/1.Spectral Graph Theory.md",
     "Misc/OOP (object oriented programming).md",
-    "Misc/Neural Networks.md",
     "Images/Screenshot 2025-07-18 at 10.52.28 PM.png",
     "Misc/Differentiation in Autograd.md",
-    "3. Reinforcement Learning/Action Values.md",
-    "3. Reinforcement Learning/Agent Architectures.md",
-    "Misc/SSH.md",
     "Images/Screenshot 2025-07-18 at 10.45.39 PM.png",
-    "3. Reinforcement Learning/1.RL.md",
-    "3. Reinforcement Learning/Exploration-Exploitation.md",
-    "Three pass system.md",
-    "Misc/Spectral Graph Theory by Fang Chung notes.md",
-    "Misc/Incidence vs Adjacency.md",
-    "Misc/Heat Equation.md",
-    "Misc/Diagonalization.md",
-    "Misc/Homomorphism in graphs.md",
-    "Diagonalization.md",
-    "Spectral Graph Theory by Fang Chung notes.md",
-    "Incidence vs Adjacency.md",
-    "Heat Equation.md",
     "Images/Screenshot 2025-06-21 at 1.40.00 AM.png",
     "Images/Screenshot 2025-06-21 at 1.20.44 AM.png",
     "Images/Screenshot 2025-06-21 at 1.20.39 AM.png",
-    "Images/Screenshot 2025-06-21 at 1.20.19 AM.png",
-    "Images/Screenshot 2025-06-21 at 1.06.31 AM.png",
-    "Images/Screenshot 2025-06-08 at 10.36.40 PM.png",
-    "Images/Screenshot 2025-06-08 at 2.59.53 PM.png",
-    "Images/Screenshot 2025-06-08 at 2.59.14 PM.png",
-    "Images",
-    "Misc",
-    "0. Pre-requisites",
-    "0. Pre-requisites/Stochastic Processes",
-    "0. Pre-requisites/Graph Theory",
-    "4. Integration",
-    "3. Reinforcement Learning",
-    "2. Optimization Techniques",
-    "2. Random Walks",
-    "1. Spectral Graph Theory"
+    "Images/Screenshot 2025-06-21 at 1.20.19 AM.png"
   ]
 }
