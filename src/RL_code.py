@@ -119,7 +119,7 @@ class NonStationaryBanditTestbed(BanditTestbed):
 
         return reward
 
-def run_experiment(k, num_steps, num_runs, policy_func, policy_param, alpha=0.1,sample_average=TRUE):
+def run_experiment(k, num_steps, num_runs, policy_func, policy_param, alpha=0.1,sample_average=True):
     """
     Runs a full bandit experiment.
     

@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/Neural Networks in pytorch.md",
+                "file": "Misc/Creating venv python, mac.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Neural Networks in pytorch"
+              "title": "Creating venv python, mac"
             }
           }
         ],
@@ -255,10 +255,10 @@
   },
   "active": "1d5d3057bc7451f7",
   "lastOpenFiles": [
-    "RNN vs Transformers intuition.md",
+    "Misc/Neural Networks in pytorch.md",
+    "Misc/RNN vs Transformers intuition.md",
     "Misc/Unsupervised or self-supervised representation learning that seeks to model the data manifold for a given class, allowing for both analysis of its core components and synthesis of novel instances.md",
     "Misc/Cross Entropy.md",
-    "Misc/Neural Networks in pytorch.md",
     "Misc/Creating venv python, mac.md",
     "3. Reinforcement Learning/Action Values.md",
     "Say-it-kinder/venv/lib/python3.11/site-packages/urllib3/util/__pycache__/wait.cpython-311.pyc",
