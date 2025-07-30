@@ -15,6 +15,18 @@ $R_{\mathrm{norm}}(f)=\frac{\langle f,Lf\rangle}{\langle f,Df\rangle}=\frac{f^T 
 
 - **Interpretation:** Total Signal Variance / **Degree-Weighted** Signal Intensity. Gives more importance to nodes with high degrees (hubs). This is often more meaningful for real-world networks.
 
+Types of RQs
+
+1. **The "Variance" Denominator $Σ(f(v) - f̄)²dᵥ)$:**
+    
+    - This form is inherently **constrained**. The centering operation $(f(v) - f̄)$ implicitly builds in the orthogonality condition needed to find a specific eigenvalue like $λ₁$. The f̄ term is calculated from the function f itself, so this denominator is always relative to the function's own internal structure.
+        
+2. **The "Magnitude" Denominator $Σf(v)²dᵥ$:**
+    
+    - This form is **universal and unconstrained**. It measures the function's magnitude against a fixed, absolute baseline of zero. It doesn't know or care if the function f is centered or an eigenvector.
+        
+    - Because it is not tied to any particular constraint or property of f, it is the **only one** that can be used to prove a **universal law** like $λₖ ≤ 2$, which must hold true for all possible functions, not just the special ones that happen to be eigenvectors.
+
 #### **Extracting the Eigenvalue: The Quotient's Purpose**
 
 The Rayleigh Quotient is a machine designed to reveal eigenvalues.

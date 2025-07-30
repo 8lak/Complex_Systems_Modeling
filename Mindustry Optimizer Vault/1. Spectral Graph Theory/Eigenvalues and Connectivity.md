@@ -1,6 +1,23 @@
 [[1.Spectral Graph Theory]]
 
 
+Rayleigh Quotient derivations
+
+The derivation of these general forms is essentially a proof of the Courant-Fischer theorem, which is a more involved linear algebra topic. For your purposes, **it is much more valuable to:**
+
+1. **Accept (1.8) as the definition:** Know that finding the k-th eigenvalue means minimizing the RQ while staying orthogonal to the k-1 previous eigenfunctions.
+    
+2. **Move on to the proofs in Section 1.3:** Your time is better spent applying what you've learned. Look at the derivations for the lemmas. For example, the proof for property (v) (λₙ₋₁ ≤ 2) will use the **sup form of the RQ (Form 1.6)** and a clever test function. Seeing how the RQ is used in a proof will be far more illuminating than deriving the general λₖ formula right now.
+
+- **Formula (1.8): The Core Idea:** λₖ = inf (f ⊥ Pₖ₋₁) [ ... ]  
+    This is the most important one to understand conceptually. Pₖ₋₁ is the subspace spanned by all the eigenvectors you've already found (f₀, f₁, ..., fₖ₋₁).
+    
+    - **The Concept:** You already grasped this! To find λ₁, you searched for a function orthogonal to f₀. To find λₖ, you search for a function orthogonal to the entire collection of previous solutions. This is a direct statement of the **Courant-Fischer theorem**, which is the fundamental principle for finding all eigenvalues via optimization.
+        
+- **Formula (1.7): The Practical Version:** The inf sup form is the "computational" way of expressing the orthogonality constraint in (1.8). The sup (g in Pₖ₋₁) part is mathematically finding the "shadow" that f casts onto the subspace of previous solutions, and then the subtraction (f(v) - g(v)) removes that shadow, leaving only the part of f that is truly new and orthogonal.
+
+
+
 Basic facts about the spectrum 
 
 
